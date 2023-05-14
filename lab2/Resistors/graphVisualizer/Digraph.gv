@@ -1,0 +1,78 @@
+digraph {
+	n0 [label=node0 fillcolor="#aaaaaa" style=filled]
+	n1 [label=node1 fillcolor="#0000ff" style=filled]
+	n2 [label=node2 fillcolor="#aaaaaa" style=filled]
+	n3 [label=node3 fillcolor="#aaaaaa" style=filled]
+	n4 [label=node4 fillcolor="#aaaaaa" style=filled]
+	n5 [label=node5 fillcolor="#aaaaaa" style=filled]
+	n6 [label=node6 fillcolor="#aaaaaa" style=filled]
+	n7 [label=node7 fillcolor="#aaaaaa" style=filled]
+	n8 [label=node8 fillcolor="#aaaaaa" style=filled]
+	n9 [label=node9 fillcolor="#aaaaaa" style=filled]
+	n10 [label=node10 fillcolor="#aaaaaa" style=filled]
+	n11 [label=node11 fillcolor="#ff0000" style=filled]
+	n12 [label=node12 fillcolor="#aaaaaa" style=filled]
+	n13 [label=node13 fillcolor="#aaaaaa" style=filled]
+	n14 [label=node14 fillcolor="#aaaaaa" style=filled]
+	n15 [label=node15 fillcolor="#aaaaaa" style=filled]
+	n16 [label=node16 fillcolor="#aaaaaa" style=filled]
+	n17 [label=node17 fillcolor="#aaaaaa" style=filled]
+	n0 -> n1 [label="R = 11.18 Ohm
+I = 0.408039A" color="#e70d00" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n2 -> n1 [label="R = 10.55 Ohm
+I = 0.370112A" color="#dc1200" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n3 -> n2 [label="R = 14.16 Ohm
+I = 0.192019A" color="#9f2300" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n3 -> n4 [label="R = 13.34 Ohm
+I = 0.024265A" color="#383100" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n5 -> n4 [label="R = 8.97 Ohm
+I = 0.0243221A" color="#383100" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n6 -> n5 [label="R = 2.79 Ohm
+I = 0.0390937A" color="#472f00" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n6 -> n7 [label="R = 5.97 Ohm
+I = 0.166075A" color="#932500" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n8 -> n7 [label="R = 14.16 Ohm
+I = 0.0120183A" color="#273200" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n8 -> n9 [label="R = 2.64 Ohm
+I = 0.0383873A" color="#472f00" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n10 -> n9 [label="R = 14.53 Ohm
+I = 0.180104A" color="#9a2400" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n11 -> n10 [label="R = 7.06 Ohm
+I = 0.396388A" color="#e40f00" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n11 -> n12 [label="R = 5.7 Ohm
+I = 0.493413A" color="#ff0000" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n12 -> n13 [label="R = 10.32 Ohm
+I = 0.288244A" color="#c21a00" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n14 -> n13 [label="R = 4.17 Ohm
+I = 0.106783A" color="#762a00" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n15 -> n14 [label="R = 12.56 Ohm
+I = 0.0581956A" color="#572e00" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n16 -> n15 [label="R = 9.11 Ohm
+I = 0.108601A" color="#772a00" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n16 -> n17 [label="R = 6.64 Ohm
+I = 0.174776A" color="#972400" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n17 -> n0 [label="R = 9.37 Ohm
+I = 0.189547A" color="#9e2300" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n9 -> n0 [label="R = 5.23 Ohm
+I = 0.218492A" color="#a92000" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n13 -> n1 [label="R = 13.5 Ohm
+I = 0.395027A" color="#e40f00" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n7 -> n2 [label="R = 9.72 Ohm
+I = 0.178093A" color="#992400" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n10 -> n3 [label="R = 7.85 Ohm
+I = 0.216284A" color="#a82100" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n4 -> n14 [label="R = 10.74 Ohm
+I = 0.0485871A" color="#502f00" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n5 -> n17 [label="R = 12.2 Ohm
+I = 0.0147715A" color="#2c3100" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n12 -> n6 [label="R = 8.19 Ohm
+I = 0.205169A" color="#a42200" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n15 -> n8 [label="R = 13.95 Ohm
+I = 0.0504056A" color="#512f00" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	n11 -> n16 [label="R = 12.78 Ohm
+I = 0.283377A" color="#c11a00" constraint=false font="times bold sans-serif" fontcolor=white fontsize=17 labelfloat=true penwidth=5]
+	bgcolor=darkblue fontcolor=white fontsize=30 label="OPORNIKI I NATEZENIA
+SEM
+U = 11.12V
+I = 1.17318A" scale=5
+}
