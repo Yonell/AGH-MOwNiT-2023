@@ -2,7 +2,7 @@ from PIL import Image, ImageOps
 import numpy as np
 
 
-# Press the green button in the gutter to run the script.
+
 if __name__ == '__main__':
     picture = Image.open("galia.png")
     pattern = Image.open("galia_e.png")
@@ -36,5 +36,3 @@ if __name__ == '__main__':
     Image.fromarray(result.astype(np.uint8)).show()
     print("Amount of paterns in an image: " + str(amount))
     pass
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
